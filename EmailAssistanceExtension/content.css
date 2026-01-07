@@ -1,0 +1,40 @@
+/* AI Reply Button */
+.ai-reply-button {
+     height: 32px;
+     padding: 0 14px;
+     margin-right: 8px;
+     border-radius: 18px;
+     border: none;
+     background-color: #1a73e8;
+     color: #ffffff;
+     font-size: 13px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: background-color 0.2s ease;
+}
+
+.ai-reply-button:hover {
+     background-color: #1558c0;
+}
+
+.ai-reply-button:disabled {
+     background-color: #c2d1f0;
+     cursor: not-allowed;
+}
+
+/* Tone Dropdown */
+.ai-tone-dropdown {
+     height: 32px;
+     margin-right: 8px;
+     padding: 0 8px;
+     border-radius: 16px;
+     border: 1px solid #dadce0;
+     background-color: #ffffff;
+     font-size: 13px;
+     cursor: pointer;
+}
+
+.ai-tone-dropdown:focus {
+     outline: none;
+     border-color: #1a73e8;
+}
